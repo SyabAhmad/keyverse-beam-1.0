@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(node --version; npm --version; npx --version 2>/dev/null; echo \"---\"; git --version; echo \"---\"; where node npm git 2>/dev/null)",
+      "powershell"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}
